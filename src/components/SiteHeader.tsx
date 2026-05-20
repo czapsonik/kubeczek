@@ -16,7 +16,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link to="/" className="flex items-baseline gap-2">
           <span className="font-display text-2xl font-semibold tracking-tight text-foreground" style={{ fontFamily: "var(--font-display)" }}>
-            Majster<span className="text-accent">+</span>
+            Kubeczek
           </span>
           <span className="hidden text-xs uppercase tracking-[0.2em] text-muted-foreground sm:inline">Gołkowice</span>
         </Link>
@@ -33,7 +33,7 @@ export function SiteHeader() {
             </Link>
           ))}
           <a
-            href="tel:+48324725067"
+            href="tel:+48324727055"
             className="rounded-sm bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-transform hover:-translate-y-0.5"
           >
             Zadzwoń

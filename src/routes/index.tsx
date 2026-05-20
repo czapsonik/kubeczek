@@ -1,7 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Hammer, ShieldCheck, Truck, Sparkles } from "lucide-react";
+import { ArrowRight, Hammer, ShieldCheck, Truck, Sparkles, Star } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { Reviews } from "@/components/Reviews";
+import { Realizations } from "@/components/Realizations";
 import hero from "@/assets/hero.jpg";
 import panele from "@/assets/panele.jpg";
 import drzwi from "@/assets/drzwi.jpg";
@@ -10,8 +12,8 @@ import bramy from "@/assets/bramy.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Majster Plus Gołkowice — Drzwi, Panele i Bramy z montażem" },
-      { name: "description", content: "Sprzedaż i profesjonalny montaż drzwi, paneli podłogowych i bram garażowych w Gołkowicach. Sprawdzona marka, lokalne doradztwo." },
+      { title: "Kubeczek Gołkowice — Drzwi, Panele i Bramy z montażem" },
+      { name: "description", content: "Sprzedaż i profesjonalny montaż drzwi, paneli podłogowych i bram garażowych w Gołkowicach. Tysiące zadowolonych klientów, 5.0/5 w Google." },
     ],
   }),
   component: Home,
@@ -42,9 +44,20 @@ function Home() {
           <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
         </div>
         <div className="mx-auto max-w-7xl px-6 pb-32 pt-32 md:pb-48 md:pt-44">
-          <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-white backdrop-blur">
-            <span className="h-1.5 w-1.5 rounded-full bg-accent" /> Gołkowice · od ponad dekady
-          </p>
+          <div className="mb-6 flex flex-wrap items-center gap-3">
+            <p className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-white backdrop-blur">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent" /> Gołkowice · od ponad dekady
+            </p>
+            <p className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-xs text-white backdrop-blur">
+              <span className="flex">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-3.5 w-3.5 fill-accent text-accent" />
+                ))}
+              </span>
+              <span className="font-medium">5.0/5</span>
+              <span className="text-white/80">· tysiące zadowolonych klientów</span>
+            </p>
+          </div>
           <h1 className="max-w-3xl text-5xl font-semibold leading-[1.05] text-white md:text-7xl">
             Drzwi, panele i bramy <span className="italic text-accent">z charakterem.</span>
           </h1>
@@ -110,6 +123,12 @@ function Home() {
         </div>
       </section>
 
+      {/* Realizations */}
+      <Realizations />
+
+      {/* Reviews */}
+      <Reviews limit={6} />
+
       {/* CTA */}
       <section className="bg-primary text-primary-foreground">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 md:grid-cols-[2fr_1fr] md:items-center">
@@ -123,7 +142,7 @@ function Home() {
             <Link to="/kontakt" className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-accent px-6 py-3 text-sm font-medium text-accent-foreground md:w-auto">
               Znajdź nas <ArrowRight className="h-4 w-4" />
             </Link>
-            <a href="tel:+48324725067" className="text-sm text-primary-foreground/80 hover:text-primary-foreground">+48 32 472 50 67</a>
+            <a href="tel:+48324727055" className="text-sm text-primary-foreground/80 hover:text-primary-foreground">+48 32 472 70 55</a>
           </div>
         </div>
       </section>
