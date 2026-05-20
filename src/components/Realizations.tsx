@@ -6,26 +6,17 @@ import r5 from "@/assets/realizacja-5.jpg";
 import r6 from "@/assets/realizacja-6.jpg";
 import r7 from "@/assets/realizacja-7.jpg";
 
-const items = [
-  { src: r1, alt: "Drzwi wewnętrzne — realizacja Kubeczek" },
-  { src: r5, alt: "Panele podłogowe w salonie — realizacja" },
-  { src: r2, alt: "Białe drzwi wewnętrzne — realizacja" },
-  { src: r6, alt: "Kolorowe drzwi z klamką — realizacja" },
-  { src: r9, alt: "" },
+const list = [
+  { src: r1, alt: "Drzwi wewnętrzne w betonowym dekorze — realizacja Kubeczek" },
+  { src: r5, alt: "Panele podłogowe w salonie — realizacja Kubeczek" },
+  { src: r2, alt: "Eleganckie białe drzwi wewnętrzne — realizacja" },
+  { src: r6, alt: "Drzwi w kolorze szałwii ze złotą klamką — realizacja" },
+  { src: r4, alt: "Drzwi zewnętrzne Pol-Skone — realizacja Kubeczek" },
+  { src: r7, alt: "Jodełka klasyczna w korytarzu — realizacja podłogi" },
+  { src: r3, alt: "Detal drzwi i klamki — realizacja" },
 ];
 
-import r9 from "@/assets/realizacja-6.jpg";
-
 export function Realizations() {
-  const list = [
-    { src: r1, alt: "Drzwi wewnętrzne w betonowym dekorze — realizacja Kubeczek" },
-    { src: r5, alt: "Panele podłogowe w salonie — realizacja Kubeczek" },
-    { src: r2, alt: "Eleganckie białe drzwi wewnętrzne — realizacja" },
-    { src: r6, alt: "Drzwi w kolorze szałwii ze złotą klamką — realizacja" },
-    { src: r4, alt: "Drzwi zewnętrzne Pol-Skone — realizacja Kubeczek" },
-    { src: r7, alt: "Jodełka klasyczna w korytarzu — realizacja podłogi" },
-    { src: r3, alt: "Detal drzwi i klamki — realizacja" },
-  ];
   return (
     <section className="mx-auto max-w-7xl px-6 py-24">
       <div className="flex flex-wrap items-end justify-between gap-6">
@@ -34,6 +25,9 @@ export function Realizations() {
           <h2 className="mt-3 max-w-2xl text-4xl font-semibold md:text-5xl">
             Zobacz prace u naszych klientów.
           </h2>
+          <p className="mt-4 max-w-xl text-muted-foreground">
+            Wybrane drzwi, panele i wykończenia z domów naszych klientów.
+          </p>
         </div>
       </div>
       <div className="mt-12 grid auto-rows-[220px] grid-cols-2 gap-4 md:auto-rows-[260px] md:grid-cols-4">
