@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Kubeczek Gołkowice — Drzwi, Panele i Bramy z montażem" },
-      { name: "description", content: "Sprzedaż i profesjonalny montaż drzwi, paneli podłogowych i bram garażowych w Gołkowicach. Tysiące zadowolonych klientów, 5.0/5 w Google." },
+      { name: "description", content: "Sprzedaż i profesjonalny montaż drzwi, paneli podłogowych i bram garażowych w Gołkowicach. Tysiące zadowolonych klientów, 5/5 w Google." },
     ],
   }),
   component: Home,
@@ -54,7 +54,7 @@ function Home() {
                   <Star key={i} className="h-3.5 w-3.5 fill-accent text-accent" />
                 ))}
               </span>
-              <span className="font-medium">5.0/5</span>
+              <span className="font-medium">5/5</span>
               <span className="text-white/80">· tysiące zadowolonych klientów</span>
             </p>
           </div>
