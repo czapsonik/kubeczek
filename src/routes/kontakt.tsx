@@ -6,9 +6,9 @@ import { SiteFooter } from "@/components/SiteFooter";
 export const Route = createFileRoute("/kontakt")({
   head: () => ({
     meta: [
-      { title: "Kontakt — Majster Plus Gołkowice" },
-      { name: "description", content: "Skontaktuj się z Majster Plus Gołkowice. ul. 1 Maja 226, 44-341 Gołkowice. Pon-Pt 8-17, Sob 8-13." },
-      { property: "og:title", content: "Kontakt — Majster Plus Gołkowice" },
+      { title: "Kontakt — Kubeczek Gołkowice" },
+      { name: "description", content: "Skontaktuj się z Kubeczek Gołkowice. ul. 1 Maja 226, 44-341 Gołkowice. Tel: 32 472 70 55." },
+      { property: "og:title", content: "Kontakt — Kubeczek Gołkowice" },
       { property: "og:description", content: "Adres, telefon, godziny otwarcia i mapa dojazdu." },
     ],
   }),
@@ -17,8 +17,8 @@ export const Route = createFileRoute("/kontakt")({
 
 const info = [
   { icon: MapPin, label: "Adres", value: "ul. 1 Maja 226\n44-341 Gołkowice" },
-  { icon: Phone, label: "Telefon", value: "+48 32 472 50 67", href: "tel:+48324725067" },
-  { icon: Mail, label: "E-mail", value: "kontakt@majsterplus-golkowice.pl", href: "mailto:kontakt@majsterplus-golkowice.pl" },
+  { icon: Phone, label: "Telefon", value: "+48 32 472 70 55", href: "tel:+48324727055" },
+  { icon: Mail, label: "E-mail", value: "ola@kubeczekpanele.pl", href: "mailto:ola@kubeczekpanele.pl" },
   { icon: Clock, label: "Godziny otwarcia", value: "Pon – Pt: 8:00 – 17:00\nSobota: 8:00 – 13:00\nNiedziela: zamknięte" },
 ];
 
@@ -55,7 +55,7 @@ function Contact() {
 
           <div className="overflow-hidden rounded-sm border border-border shadow-[var(--shadow-soft)]">
             <iframe
-              title="Mapa — Majster Plus Gołkowice"
+              title="Mapa — Kubeczek Gołkowice"
               src="https://www.google.com/maps?q=ul.%201%20Maja%20226%2C%2044-341%20Go%C5%82kowice&output=embed"
               className="h-full min-h-[420px] w-full"
               loading="lazy"
