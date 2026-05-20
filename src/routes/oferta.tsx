@@ -9,9 +9,9 @@ import bramy from "@/assets/bramy.jpg";
 export const Route = createFileRoute("/oferta")({
   head: () => ({
     meta: [
-      { title: "Oferta — Majster Plus Gołkowice" },
-      { name: "description", content: "Panele podłogowe, drzwi wewnętrzne i zewnętrzne, bramy garażowe oraz akcesoria — pełna oferta sklepu Majster Plus w Gołkowicach." },
-      { property: "og:title", content: "Oferta — Majster Plus Gołkowice" },
+      { title: "Oferta — Kubeczek Gołkowice" },
+      { name: "description", content: "Panele podłogowe, drzwi wewnętrzne i zewnętrzne, bramy garażowe oraz akcesoria — pełna oferta sklepu Kubeczek w Gołkowicach." },
+      { property: "og:title", content: "Oferta — Kubeczek Gołkowice" },
       { property: "og:description", content: "Drzwi, panele i bramy — zobacz pełną ofertę." },
     ],
   }),

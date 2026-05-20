@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { Reviews } from "@/components/Reviews";
 
 export const Route = createFileRoute("/o-nas")({
   head: () => ({
@@ -48,6 +49,7 @@ function About() {
           </div>
         </div>
       </section>
+      <Reviews />
       <SiteFooter />
     </div>
   );
