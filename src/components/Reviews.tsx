@@ -46,7 +46,7 @@ export function Reviews({ limit }: { limit?: number }) {
               <p className="mt-4 text-sm leading-relaxed text-foreground">"{r.text}"</p>
               <div className="mt-5 flex items-center justify-between border-t border-border pt-4 text-xs">
                 <span className="font-medium text-foreground">{r.name}</span>
-                <span className="text-muted-foreground">{r.when} · Google</span>
+                <span className="text-muted-foreground">{r.when ? `${r.when} · Google` : "Google"}</span>
               </div>
             </article>
           ))}
