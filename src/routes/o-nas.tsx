@@ -36,15 +36,15 @@ function About() {
 
         <div className="mt-16 grid gap-8 border-t border-border pt-10 sm:grid-cols-3">
           <div>
-            <div className="font-display text-5xl font-semibold text-accent" style={{ fontFamily: "var(--font-display)" }}>10+</div>
-            <div className="mt-2 text-sm text-muted-foreground">lat na rynku</div>
+            <div className="font-display text-5xl font-semibold text-accent" style={{ fontFamily: "var(--font-display)" }}>25+</div>
+            <div className="mt-2 text-sm text-muted-foreground">lat doświadczenia</div>
           </div>
           <div>
             <div className="font-display text-5xl font-semibold text-accent" style={{ fontFamily: "var(--font-display)" }}>tysiące</div>
             <div className="mt-2 text-sm text-muted-foreground">zadowolonych klientów</div>
           </div>
           <div>
-            <div className="font-display text-5xl font-semibold text-accent" style={{ fontFamily: "var(--font-display)" }}>5.0</div>
+            <div className="font-display text-5xl font-semibold text-accent" style={{ fontFamily: "var(--font-display)" }}>4,7</div>
             <div className="mt-2 text-sm text-muted-foreground">średnia ocen Google</div>
           </div>
         </div>
