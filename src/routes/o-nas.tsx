@@ -21,7 +21,7 @@ function About() {
       <SiteHeader />
       <section className="mx-auto max-w-3xl px-6 py-24">
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-accent">O nas</p>
-        <h1 className="mt-3 text-5xl font-semibold md:text-6xl">Lokalna firma. Solidna marka.</h1>
+        <h1 className="mt-3 text-5xl font-semibold md:text-6xl">Lokalna firma. Marka z doświadczeniem.</h1>
         <div className="prose prose-neutral mt-10 max-w-none text-base leading-relaxed text-muted-foreground">
           <p>
             <strong className="text-foreground">Kubeczek Gołkowice</strong> to lokalne centrum wyposażenia wnętrz prowadzone przez firmę <strong className="text-foreground">PHU Kubeczek</strong>. Specjalizujemy się w sprzedaży i profesjonalnym montażu drzwi, paneli podłogowych oraz bram garażowych.
