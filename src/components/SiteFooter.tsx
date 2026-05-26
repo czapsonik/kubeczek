@@ -17,12 +17,13 @@ export function SiteFooter() {
           <p className="text-foreground">ul. 1 Maja 226</p>
           <p className="text-foreground">44-341 Gołkowice</p>
           <a href="tel:+48324727055" className="mt-2 block text-foreground hover:text-accent">+48 32 472 70 55</a>
-          <a href="mailto:ola@kubeczekpanele.pl" className="block text-foreground hover:text-accent">ola@kubeczekpanele.pl</a>
+          <a href="tel:+48603899153" className="block text-foreground hover:text-accent">+48 603 899 153</a>
+          <a href="mailto:golkowice@majsterplus.pl" className="block text-foreground hover:text-accent">golkowice@majsterplus.pl</a>
         </div>
         <div className="text-sm">
           <div className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground">Godziny otwarcia</div>
           <p className="text-foreground">Pon – Pt: 8:00 – 17:00</p>
-          <p className="text-foreground">Sobota: 8:00 – 13:00</p>
+          <p className="text-foreground">Sobota: 9:00 – 13:00</p>
           <p className="text-muted-foreground">Niedziela: zamknięte</p>
         </div>
       </div>
