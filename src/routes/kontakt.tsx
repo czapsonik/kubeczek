@@ -7,7 +7,7 @@ export const Route = createFileRoute("/kontakt")({
   head: () => ({
     meta: [
       { title: "Kontakt — Kubeczek Gołkowice" },
-      { name: "description", content: "Skontaktuj się z Kubeczek Gołkowice. ul. 1 Maja 226, 44-341 Gołkowice. Tel: 32 472 70 55." },
+      { name: "description", content: "Skontaktuj się z Kubeczek Gołkowice. ul. 1 Maja 226, 44-341 Gołkowice. Tel: 32 472 70 55, 603 899 153." },
       { property: "og:title", content: "Kontakt — Kubeczek Gołkowice" },
       { property: "og:description", content: "Adres, telefon, godziny otwarcia i mapa dojazdu." },
     ],
@@ -17,9 +17,9 @@ export const Route = createFileRoute("/kontakt")({
 
 const info = [
   { icon: MapPin, label: "Adres", value: "ul. 1 Maja 226\n44-341 Gołkowice" },
-  { icon: Phone, label: "Telefon", value: "+48 32 472 70 55", href: "tel:+48324727055" },
-  { icon: Mail, label: "E-mail", value: "ola@kubeczekpanele.pl", href: "mailto:ola@kubeczekpanele.pl" },
-  { icon: Clock, label: "Godziny otwarcia", value: "Pon – Pt: 8:00 – 17:00\nSobota: 8:00 – 13:00\nNiedziela: zamknięte" },
+  { icon: Phone, label: "Telefon", value: "+48 32 472 70 55\n+48 603 899 153", href: "tel:+48324727055" },
+  { icon: Mail, label: "E-mail", value: "golkowice@majsterplus.pl", href: "mailto:golkowice@majsterplus.pl" },
+  { icon: Clock, label: "Godziny otwarcia", value: "Pon – Pt: 8:00 – 17:00\nSobota: 9:00 – 13:00\nNiedziela: zamknięte" },
 ];
 
 function Contact() {

@@ -22,20 +22,45 @@ const sections = [
   {
     title: "Panele podłogowe i podłogi",
     img: panele,
-    items: ["Swiss Krono", "Classen", "Querra", "VILO", "Listwy, podkłady i akcesoria"],
-    desc: "Setki wzorów i kolorów na ekspozycji. Doradzimy klasę ścieralności i sposób ułożenia.",
+    items: [
+      "Panele laminowane",
+      "Panele winylowe",
+      "Panele ścienne MDF",
+      "Panele ścienne SPC",
+      "Lamele ścienne LINERIO",
+      "Maty i podkłady, listwy i akcesoria",
+      "Marki: Swiss Krono, Classen, Querra, Kaindl, Tarkett, Egger, Weninger, VILO",
+    ],
+    desc: "Setki wzorów i kolorów na ekspozycji — od klasycznych paneli laminowanych i winylowych po designerskie panele i lamele ścienne. Doradzimy klasę ścieralności i sposób ułożenia.",
   },
   {
     title: "Drzwi wewnętrzne i zewnętrzne",
     img: drzwi,
-    items: ["Drzwi pokojowe z ościeżnicą", "Drzwi zewnętrzne stalowe", "Drzwi przesuwne", "Pomiar i montaż"],
-    desc: "Pełen wachlarz wzornictwa — od klasyki po nowoczesne kolekcje. Profesjonalny pomiar i montaż.",
+    items: [
+      "Drzwi pokojowe z ościeżnicą",
+      "Drzwi zewnętrzne stalowe",
+      "Drzwi przesuwne",
+      "Pomiar i montaż",
+      "Marki: DRE, Pol-Skone, Erkado, Devente, Invado, Intenso Doors, KR Center, KMT, Wikęd",
+    ],
+    desc: "Pełen wachlarz wzornictwa — od klasyki po nowoczesne kolekcje czołowych producentów. Profesjonalny pomiar i montaż.",
   },
   {
     title: "Bramy garażowe",
     img: bramy,
     items: ["Bramy segmentowe", "Bramy rolowane", "Automatyka i napędy", "Serwis i konserwacja"],
     desc: "Bramy renomowanych producentów — ciepłe, bezpieczne i estetyczne. Z montażem pod klucz.",
+  },
+  {
+    title: "Dekoracja okien i akcesoria",
+    img: panele,
+    items: [
+      "Karnisze i szyny",
+      "Rolety wewnętrzne i zewnętrzne",
+      "Moskitiery okienne i drzwiowe",
+      "Doradztwo i montaż",
+    ],
+    desc: "Wszystko, co potrzebne, by wykończyć okna — od karniszy i szyn, przez rolety, po moskitiery dopasowane na wymiar.",
   },
 ];
 

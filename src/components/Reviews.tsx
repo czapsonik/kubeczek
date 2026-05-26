@@ -13,7 +13,7 @@ export function Reviews({ limit }: { limit?: number }) {
               Tysiące zadowolonych klientów.
             </h2>
             <p className="mt-4 max-w-xl text-muted-foreground">
-              Średnia ocena <strong className="text-foreground">5/5</strong> w opiniach Google. Zobacz, co o nas mówią.
+              Średnia ocena <strong className="text-foreground">4,7/5</strong> w opiniach Google. Zobacz, co o nas mówią.
             </p>
           </div>
           <a

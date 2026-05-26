@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Kubeczek Gołkowice — Drzwi, Panele i Bramy z montażem" },
-      { name: "description", content: "Sprzedaż i profesjonalny montaż drzwi, paneli podłogowych i bram garażowych w Gołkowicach. Tysiące zadowolonych klientów, 5/5 w Google." },
+      { name: "description", content: "Sprzedaż i profesjonalny montaż drzwi, paneli podłogowych i bram garażowych w Gołkowicach. Tysiące zadowolonych klientów, 4,7/5 w Google." },
     ],
   }),
   component: Home,
@@ -54,7 +54,7 @@ function Home() {
                   <Star key={i} className="h-3.5 w-3.5 fill-accent text-accent" />
                 ))}
               </span>
-              <span className="font-medium">5/5</span>
+              <span className="font-medium">4,7/5</span>
               <span className="text-white/80">· tysiące zadowolonych klientów</span>
             </p>
           </div>
@@ -143,6 +143,7 @@ function Home() {
               Znajdź nas <ArrowRight className="h-4 w-4" />
             </Link>
             <a href="tel:+48324727055" className="text-sm text-primary-foreground/80 hover:text-primary-foreground">+48 32 472 70 55</a>
+            <a href="tel:+48603899153" className="text-sm text-primary-foreground/80 hover:text-primary-foreground">+48 603 899 153</a>
           </div>
         </div>
       </section>
