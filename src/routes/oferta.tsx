@@ -5,6 +5,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import panele from "@/assets/panele.jpg";
 import drzwi from "@/assets/drzwi.jpg";
 import bramy from "@/assets/bramy.jpg";
+import oknaRolety from "@/assets/okna-rolety.jpg";
 
 export const Route = createFileRoute("/oferta")({
   head: () => ({
@@ -53,7 +54,7 @@ const sections = [
   },
   {
     title: "Dekoracja okien i akcesoria",
-    img: panele,
+    img: oknaRolety,
     items: [
       "Karnisze i szyny",
       "Rolety wewnętrzne i zewnętrzne",
